@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Blocks, classes, id</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container pink" id="outside">
+        <div class="container">
+            <h1>HTML Party</h1>
+            <h2>Fun with blocks & classes</h2>
+            <div>
+                <h3 class="darkb">Div</h3>
+                <p>
+                    This was done with a div and a class in the header. I'm also trying a <span style="border: 1px solid black; padding-left: 5px; padding-right: 5px; background-color: lightblue;">span</span> with 
+                    a blue background and padding.
+                </p>
+                <main>
+                    <h3 class="pink">Block Elements</h3>
+                    <p>
+                        This is a regular paragraph within a "main" block element. A "main" block element
+                        is unique to just one page and shouldn't contain elements that are repeated on other pages.
+                    </p>
+                    <p><small>
+                        This is the another paragraph, but I used the "Small" inline style.</small>
+                    </p>
+                    <p>I love this JFK quote that I'm turning it into a "blockquote."
+
+                    <blockquote class="block" cite="https://er.jsc.nasa.gov/seh/ricetalk.html">We choose to go to the moon. 
+                        We choose to go to the moon in this decade and do the 
+                        other things, not because they are easy, but because they are hard, </blockquote>
+
+                </main>
+                <section>
+                    <h3 class="darkb"; id="s1">Section</h3>
+                        <p>This is my <span class="pink">FIRST SECTION </span>. It is a block element. Sections can be 
+                            chapters, headers, footers, or any other sections of a document.
+                        </p>
+                    </section>
+
+                <Section>
+                    <h3 class="darkb">Time & Big </h3>
+                    <p>I can see why the date and time inline code could be helpful. Especially since today is <time datetime="2008-03-09 20:00">March 9</time>. I also think it could 
+                    be fun to play with the <big>Big</big> and <small>Small</small> elements. However it looks like
+                the big element isn't working correctly.</p>
+
+                </Section>
+
+            </div>
+        </div>
+    </div>
+        <div class="container">
+            <h2>Fun with Ids & New Elements</h2>
+    <div class="container" id="inline">
+        <h1 ID="id1">Ids</h1>
+        <p id="id2">In this section I'm going to try out my new id2 element.</p>
+        <p>In this paragraph I'm trying out a <a href="#s1">bookmark</a>
+            to my first section.</p>
+
+            <h1 ID="id1">New Elements</h1>
+            <p id="id2">Throughout this page I've tried the main, section, footer, and time new elements.
+                Now I'm trying the <mark>mark</mark> new element.</p>
+    </div>
+    <footer class="footer">
+        <p>Here's a footer. </p>
+        <p>Who made this sweet thing? April Poulsen Did!</p>
+        <p>Want to know more? <a href="mailto:april.m.poulsen@gmail.com">april.m.poulsen@example.com</a>.</p>
+      </footer>
+</body>
+
+</html>

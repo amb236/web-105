@@ -1,0 +1,149 @@
+/* Color Theme Swatches in Hex 
+$Interaction-1-hex: #F0F0F2;
+$Interaction-2-hex: #055BA6;
+$Interaction-3-hex: #1A2226;
+$Interaction-4-hex: #07D99D;
+$Interaction-5-hex: #591202;*/
+
+/* Color Theme Swatches in RGBA 
+white = $Interaction-1-rgba: rgba(240,240,242, 1);
+Blue = $Interaction-2-rgba: rgba(5,91,166, 1);
+Dgray = $Interaction-3-rgba: rgba(26,34,38, 1);
+Green = $Interaction-4-rgba: rgba(7,217,157, 1);
+Red = $Interaction-5-rgba: rgba(89,18,2, 1);*/
+
+/* Color Theme Swatches in HSLA 
+$Interaction-1-hsla: hsla(240, 7, 94, 1);
+$Interaction-2-hsla: hsla(207, 94, 33, 1);
+$Interaction-3-hsla: hsla(200, 18, 12, 1);
+$Interaction-4-hsla: hsla(162, 93, 43, 1);
+$Interaction-5-hsla: hsla(11, 95, 17, 1);*/
+
+/* font-family: 'Raleway', sans-serif;
+font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Quicksand', sans-serif;*/
+
+header {
+    display: block;
+    background-image: url('edinburghbw.jpg');
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: cover;
+    font-family: 'Raleway', sans-serif;
+    color: rgba(26,34,38, 1);
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    border: 5px;  black;
+    text-align: left;
+}
+
+body{
+   background-color: rgba(5,91,166, 1) ;
+    font-family: 'Raleway', 'Nanum Gothic', 'Quicksand', sans-serif;
+    color: rgba(26,34,38, 1);
+    }
+h1{
+    color: rgba(240,240,242, 1);
+    text-align: left;
+    text-indent: 40px;
+    font-size: 70px;
+}
+h2{
+    color: rgba(89,18,2, 1);
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: 'Quicksand', 'Raleway';  
+    }
+h3{
+        color: whitesmoke;
+        text-align: left;
+        font-size: larger;
+        font-weight: bolder;
+        font-family: 'Quicksand', 'Raleway';
+        }
+    .container{
+        width: 80%;
+        margin: 20px auto;
+        padding: 20px;
+        border: 3px solid rgb(49, 54, 64);
+        background-color:  rgba(240,240,242, 1);
+        overflow: auto;
+    }
+    
+    a{
+        color: whitesmoke;
+    font-size: large;
+    padding: 10px;
+    text-decoration: none
+    }
+
+    nav{
+        text-align: center;
+        padding: 10px 5px;
+    }
+
+    nav a{
+        text-decoration: none;
+        background:  rgba(89,18,2, 1);
+        border: 1px solid whitesmoke;
+        border-radius: 1px;
+        padding: 10px 20px;
+        margin: 10px 10px;
+        color: whitesmoke;
+    }
+
+    nav a:hover{
+        background: rgba(5,91,166, 1);
+        color: whitesmoke;
+    }
+
+    ul {
+        list-style-type: circle;
+    }
+
+    dt {
+        color: rgb(248, 130, 130);
+    }
+
+    .headerb {
+        background:rgba(5,91,166, 1), 10%;
+    }
+
+    aside {
+        clear: both;
+        border: 1px solid rgba(26,34,38, 1);
+        background:rgba(26,34,38, 1);
+        box-align: left;
+        width: 40%;
+        margin-left: 20px;
+        margin-top: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        padding: 20px;
+        word-wrap: normal;
+        float: left
+    }
+    .asidetext {
+        color:  rgba(240,240,242, 1);
+        font-family: 'Nanum Gothic', 'Raleway', 'Quicksand', sans-serif;
+    }
+    footer {
+        color: rgba(240,240,242, 1);
+        font-family: 'Raleway', 'Nanum Gothic', 'Quicksand', sans-serif;
+        font-size: 10px;
+        text-align: center;
+    }
+    img {
+        margin: 10px;
+    }
+
+    figcaption {
+        font-size: 15px;
+        font-family: 'Nanum Gothic', 'Quicksand', sans-serif;
+    }
+    .responsive {
+        width: 100%;
+        height: auto;
+    }

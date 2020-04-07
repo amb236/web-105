@@ -1,0 +1,360 @@
+/* --------------------- CSS Reset -------------------- */
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, dl {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*  ---------------------- Variables ---------------------- */
+
+/* 
+font-family: ‘Montserrat’, sans-serif; 
+*/
+
+
+/* Color Theme Swatches in Hex */
+.portpink { color: #EFE5E4; }
+.portgray { color: #C1D2D9; }
+.portblue { color: #A4BABF; }
+.portdblue { color: #3E4040; }
+.portwhite { color: #F2F2F2; }
+
+/* Color Theme Swatches in RGBA */
+.Website-colors-1-rgba { color: rgba(239, 229, 228, 1); }
+.Website-colors-2-rgba { color: rgba(193, 210, 217, 1); }
+.Website-colors-3-rgba { color: rgba(164, 186, 191, 1); }
+.Website-colors-4-rgba { color: rgba(62, 64, 64, 1); }
+.Website-colors-5-rgba { color: rgba(242, 242, 242, 1); }
+
+/* Color Theme Swatches in HSLA */
+.Website-colors-1-hsla { color: hsla(5, 25, 91, 1); }
+.Website-colors-2-hsla { color: hsla(197, 24, 80, 1); }
+.Website-colors-3-hsla { color: hsla(191, 17, 69, 1); }
+.Website-colors-4-hsla { color: hsla(180, 1, 24, 1); }
+.Website-colors-5-hsla { color: hsla(0, 0, 94, 1); }
+
+
+
+
+
+
+
+
+
+ /* ---------------------- layout ------------------------- */
+body{
+    background-color: #F2F2F2;
+    font-family: ‘Montserrat’, sans-serif;
+    color: black;
+}
+
+.container{
+    width: 80%;
+    max-width: 1200px;
+    min-width: 500px;
+    margin: 20px auto;
+    padding: 30px;
+    border: 3px solid rgb(49, 54, 64);
+    overflow: auto;
+}
+.headcontainer{
+    width: 80%;
+    max-width: 1200px;
+    min-width: 500px;
+    margin: 20px auto;
+    padding: 30px;
+    overflow: auto;
+}
+.portcontainer{
+        width:270px;
+        height:auto;
+        padding:1%;
+        float:left;
+    }
+
+.portimage {
+       float:left; 	
+       height: auto;
+       width: 300px;
+       } 
+footer{
+	text-align:right;
+	padding: 20px;
+	color: whitesmoke;
+}
+.left{
+    padding: 20px;
+    display: inline;
+}
+.right{
+    padding: 20px;
+    display: inline;
+}
+
+.center{
+    padding: 20px;
+    display: inline;
+}
+
+img{
+    box-sizing: border-box;
+    margin: 10px;
+    width: 200px;
+}
+
+.horizontal-menu{
+    display: inline;
+   
+}
+
+.horizontal-menu a{
+	text-decoration:none;
+}
+
+
+.top{
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    text-align: center;
+    margin: 30px ;
+}
+
+nav{
+    text-align: center;
+    margin-top: 3px;
+    padding: 5px 5px;
+}
+nav a{
+    text-decoration: none;
+    border: 0;
+    border-radius: 1px;
+    padding: 5px 5px;
+    margin: 40px 20px;
+    color: black;
+}
+nav a:hover{
+    background: #A4BABF;
+    color: whitesmoke;
+}
+
+h1{ 
+    color: rgb(49, 54, 64);
+    text-align: center;
+    font-size: 4em;
+} 
+
+  h2{
+	color:  #3E4040;
+    text-align: left;
+    font-size: xx-large;
+    margin-left: 10%;
+}
+h3{
+    color:  #3E4040;
+    text-align: left;
+    font-size: large;
+    font-weight: bold;
+    }
+
+h4{
+color:  #3E4040;
+    text-align: left;
+    font-size: large;
+    font-weight: bold;
+    margin: 0;
+    }
+
+h5{
+    color:  #3E4040;
+    font-size: medium;
+    font-weight: bold;
+    margin: 0;
+}
+
+.portleft {
+    float:left;
+}
+.portright {
+    float:left;
+    width: 400px;
+    padding-top: 30px;
+}
+.portimg{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.button{
+    color: black;
+    border: 2px solid black;
+    padding: 10px 20px;
+    background: whitesmoke;
+    text-decoration: none;
+    float: center;
+}
+
+.button:hover{
+    color: lightcyan;
+    background: black;
+}
+
+a{
+color: whitesmoke;
+font-size: large;
+padding: 10px;
+text-decoration: none;
+}
+
+p{
+	padding: 10px;
+}
+/* Position */
+div.fixed {
+    position: fixed;
+    bottom: 0;
+    right: 30px;
+    width: 300px;
+    padding: 10;
+    background-color: whitesmoke;
+    color: rgb(49, 54, 64);
+    Text-align: right;
+}
+.img-container {
+    float: left;
+    width: 33.33%;
+    height: 100px; 
+    padding: 5px;  
+}
+span.a {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    padding: 40px;   
+    background-color:pink; 
+    text-align: center;
+    
+}
+
+div {
+    overflow: auto;
+    margin-top: 5px;
+}
+* {
+    box-sizing: border-box;
+  }
+
+  .box {
+    float: left;
+    width: 33.33%; /* three boxes (use 25% for four, and 50% for two, etc) */
+    padding: 20px auto; /* if you want space between the images */
+  }
+  
+  .clearfix {
+      width: 80%;
+      display: block;
+      margin: 10px auto;
+  }
+  
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .portcenter {
+      float: center;
+  }
+  
+  div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+    float: center;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+  #opacity img{
+      opacity: 0.5;
+  }
+
+  #opacity img:hover{
+      Opacity: 1.0;
+  }
+  
+  div.port{
+    height: auto;  
+    width: 80%;
+      border: 2px solid #A4BABF;
+      margin: 30px auto;
+      color: #777;
+      float: center;
+      overflow: auto;
+  }
+  div.img{
+      width: 50px;
+      float: left;
+  }
+ul {
+    list-style-type: circle;
+}

@@ -1,0 +1,362 @@
+.Website-colors-1-rgba { color: rgba(239, 229, 228, 1); }
+.Website-colors-2-rgba { color: rgba(193, 210, 217, 1); }
+.Website-colors-3-rgba { color: rgba(164, 186, 191, 1); }
+.Website-colors-4-rgba { color: rgba(62, 64, 64, 1); }
+.Website-colors-5-rgba { color: rgba(242, 242, 242, 1); }
+
+/* font-family: 'Raleway', sans-serif;
+font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Quicksand', sans-serif;*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+/* Color Theme Swatches in RGBA */
+:root{
+    --dark-primary-color: rgba(62, 64, 64, 1); ;
+    --light-primary-color:rgba(164, 186, 191, 1);
+    --primary-color: rgba(193, 210, 217, 1);
+    --text-icons: rgba(242, 242, 242, 1);
+    --accent-color: rgba(239, 229, 228, 1);
+    --primary-text: #212121;
+    --secondary-text: #757575;
+    --divider-color: rgba(239, 229, 228, 1);
+    --heading-font: 'raleway', Quicksand;
+    --text-font: 'Open Sans', sans-serif;
+}
+
+body {
+    line-height: 1.5;
+}
+
+header {
+    display: block;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    border: 0;
+    border-radius: 80px;
+    background-color: var(--dark-primary-color);
+    text-align: center;
+    line-height: 1.25;
+}
+
+body{
+   background-image: url(library.jpg);
+    font-family: 'Raleway', 'Nanum Gothic', 'Quicksand', sans-serif;
+    color: rgba(26,34,38, 1);
+    line-height: 2em;
+    }
+h1{
+    color: var(--light-primary-color);
+    text-align: center;
+    font-size: 50px;
+    
+}
+h2{
+    color: var(--secondary-text);
+    text-align: center;
+    font-size: xx-large;
+    font-weight: lighter;
+    }
+h3{
+    color: var(--secondary-text);
+    text-align: left;
+    font-size: large;
+    font-weight: lighter;
+    }
+
+    li{
+        text-indent: 50px;
+    }
+    .container{
+        width: 80%;
+        margin: 20px auto;
+        padding: 20px;
+        border: 3px solid rgb(49, 54, 64);
+        background-color:  rgba(240,240,242, 1);
+        overflow: auto;
+        border-radius: 80px;
+    }
+
+    nav{
+        text-align: center;
+        margin-top: 3px;
+        padding: 5px 5px;
+    }
+    nav a{
+        text-decoration: none;
+        border: 0;
+        border-radius: 1px;
+        padding: 5px 5px;
+        margin: 40px 20px;
+        color: black;
+    }
+    nav a:hover{
+        background-color: var(--accent-color);
+        color: whitesmoke;
+    }
+div{
+    width: 90%;
+  height: auto;
+  padding: 15px;
+  margin: 10px 20px 40px;
+
+}
+    
+    a{
+        color: rgba(26,34,38, 1);
+    font-size: large;
+    padding: 10px;
+    text-decoration: none;
+    }
+
+    nav{
+        text-align: center;
+        padding: 10px 5px;
+    }
+
+    nav a{
+        text-decoration: none;
+        border: 1px solid whitesmoke;
+        border-radius: 1px;
+        padding: 10px 20px;
+        margin: 10px 10px;
+        color: var(--primary-text)
+    }
+
+    nav a:hover{
+        background: var(--accent-color);
+        color: var(--dark-primary-color);
+    }
+
+    .horizontal-menu{
+        display: inline;
+       
+    }
+    
+    .horizontal-menu a{
+        text-decoration:none;
+    }
+
+    ul {
+        list-style-type: circle;
+    }
+
+    dt {
+        color: rgb(248, 130, 130);
+    }
+
+    aside {
+        clear: both;
+        border: 1px solid rgba(26,34,38, 1);
+        background:rgba(26,34,38, 1);
+        box-align: left;
+        width: 40%;
+        margin-left: 20px;
+        margin-top: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        padding: 20px;
+        word-wrap: normal;
+        float: left;
+    }
+    .asidetext {
+        color:  rgba(240,240,242, 1);
+        font-family: 'Nanum Gothic', 'Raleway', 'Quicksand', sans-serif;
+    }
+    footer {
+        color: rgba(240,240,242, 1);
+        font-family: 'Raleway', 'Nanum Gothic', 'Quicksand', sans-serif;
+        font-size: 10px;
+        text-align: center;
+    }
+    img {
+        margin: 10px;
+    }
+
+    figcaption {
+        font-size: 15px;
+        font-family: 'Nanum Gothic', 'Quicksand', sans-serif;
+    }
+    .responsive {
+        width: 100%;
+        height: auto;
+    }
+
+    /*---------Gallery-----------*/
+
+     /* columns 
+        column-count: 3;
+        column-gap: 10px;
+        */
+
+    body{
+        font-family:var(--text-font);
+        line-height: 1.5;
+        font-size: 1em;    
+    }
+    
+    .card{
+        width: 30%;
+        min-height: 100px;
+        box-sizing: border-box;
+        outline: 2px solid var(--primary-color);
+        float: left;
+        padding: 3px;
+        margin: 5px 40px 80px 10px;
+        background-color: var(--accent-color);
+    }
+    
+    .card p{
+        font-size: .8em;
+        line-height: 1.2;
+    }
+    .card figure{
+        width: 95%;
+        padding: 2%;
+        margin: 2px auto;
+        vertical-align: top;
+    }
+    .card img{
+        vertical-align: top;
+        width: 90%;
+        margin:0px auto;
+    }
+    
+    .card figure figcaption{
+        text-align: center;
+        color: var(--text-font);
+        font-family: var(--heading-font);
+        font-size: 1em;
+    
+    }
+    .card h2{
+        font-family: var(--heading-font);
+        text-shadow: 1px 1px 1px var(--accent-color);
+    }
+
+    /*------Form-------------------------------------*/
+
+    input {
+        width: 30%;
+      }
+    input[type=text] {
+        width: 30%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: 2px solid yellow;
+        border-radius: 2px;
+    }
+        input[type=text]:focus {
+            background-color: pink;
+          }
+          input[type=submit] {
+            width: 10%;
+          }
+          input[type=reset] {
+            width: 10%;
+          }
+
+/*------Media-------------------------------------*/
+audio{
+    display: block;
+    width: 70%;
+    margin: 10px auto;
+}
+video{
+    width: 70%;
+    display: block;
+    margin: 10px auto;
+}
+iframe{
+    display: block;
+    margin: 10px auto;
+}
+
+/*------------Advanced Formatting------------*/
+#rcorners1 {
+    border-radius: 25px;
+    background: #73AD21;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+  }
+  
+  #rcorners2 {
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+  }
+  
+  #rcorners3 {
+    border-radius: 25px;
+    background: url(paper.gif);
+    background-position: left top;
+    background-repeat: repeat;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+  }
+
+  #borderimg { 
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(textile.jpg) 30 stretch;
+  }
+#borderimg2 {
+        border: 10px solid transparent;
+        padding: 15px;
+        border-image: url(textile.jpg) 20% round;
+      }
+      
+      #borderimg3 {
+        border: 10px solid transparent;
+        padding: 15px;
+        border-image: url(textile.jpg) 30% round;
+      }
+
+        /*-----Multiple Background images-------*/
+#example1 {
+    background-image: url(textile.jpg), url(plane.jpg);
+    background-position: right top left bottom;
+    background-repeat: no-repeat, repeat;
+    padding: 15px;
+    width: 90%;
+}
+p.test2 {
+    white-space: nowrap; 
+    width: 200px; 
+    border: 1px solid #000000;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
